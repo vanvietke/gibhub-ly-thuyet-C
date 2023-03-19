@@ -145,3 +145,7 @@ phân vùng nhớ tĩnh
 
 
 -pointer to pointer( con trỏ cấp 2):
+    + Dùng để lưu địa chỉ của con trỏ
+    + VD: int a =10;
+          int *ptr1=&a;
+          int **ptr2=&ptr1;//địa chỉ của con trỏ ptr1 được lưu vào con trỏ ptr2
